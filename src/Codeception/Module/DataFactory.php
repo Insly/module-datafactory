@@ -178,7 +178,7 @@ EOF;
     /**
      * @var array
      */
-    protected $config = ['factories' => null, 'customStore' => null];
+    protected array $config = ['factories' => null, 'customStore' => null];
 
     public function _requires(): array
     {
